@@ -13,13 +13,15 @@ US equity markets sold off sharply on Monday, June 23, as a confluence of negati
 
 | Index | Close | Change | % Change |
 |---|---|---|---|
-| S&P 500 (^GSPC) | ~7,365 – 7,473 | -27 to -107 pts | -0.4% to -1.44% |
+| S&P 500 (^GSPC) | ~7,364 – 7,473 | -27 to -107 pts | -0.4% to -1.44% |
 | Nasdaq Composite (^IXIC) | ~25,587 – 26,167 | -351 to -1,080 pts | -1.3% to -2.21% |
-| Dow Jones Industrial Average (^DJI) | ~51,667 – 51,713 | -46 to +148 pts | -0.09% to +0.30% |
+| Nasdaq 100 (^NDX) | — | — | -3.3% |
+| Dow Jones Industrial Average (^DJI) | ~51,665 | -47 pts | -0.09% |
+| Russell 2000 (^RUT) | — | — | +0.83% (outperformed) |
 | S&P 500 Technology Sector | — | — | -4.13% |
 | iShares Semiconductor ETF (SOXX) | — | — | -7.88% |
 
-> **Note:** Minor discrepancies in index closing values reflect differing sources/timestamps. The direction and magnitude of moves are consistent across all sources: tech/growth sold off hard while the Dow held relatively flat.
+> **Note:** Minor discrepancies in index closing values reflect differing sources/timestamps. The direction and magnitude of moves are consistent across all sources: tech/growth sold off hard while the Dow held relatively flat. The Russell 2000's gain stands out as a rotation into small-caps away from rate-sensitive mega-cap tech.
 
 ---
 
@@ -55,9 +57,33 @@ This note rattled rate-sensitive growth stocks and further pressured semiconduct
 ## 3. Notable Analyst Reports & Market Insights
 
 ### Bank of America — Federal Reserve Outlook
-- **New forecast:** Three 25bp rate hikes in 2026 (September, October, December).
-- Rationale: Persistent inflation driven by energy-related costs and sticky services CPI.
+- **New forecast:** Three 25bp rate hikes in 2026 (September, October, December), bringing the Fed Funds target from 3.50–3.75% → 4.25–4.50%.
+- Rationale: Persistent inflation driven by energy-related costs and sticky services CPI; new Fed Chair Kevin Warsh's hawkish posture.
 - Impact: Immediate repricing of rate-sensitive growth equities, particularly semiconductors and AI infrastructure names.
+
+### Deutsche Bank — Federal Reserve Outlook
+- **New forecast:** Two 25bp rate hikes in 2026 (September and December).
+- Deutsche Bank joined BofA in abandoning its prior "steady rates" forecast, citing the June Fed meeting's hawkish tone and updated dot plots under Chair Warsh.
+- Markets (via LSEG futures) currently price ~41bp of hikes through year-end, implying roughly a coin-flip on the third hike.
+
+### JPMorgan — IBM (IBM)
+- Upgraded IBM from Neutral → **Overweight**; price target lifted to **$291** from $270.
+- IBM shares gained ~4.2–4.9% on the session, one of the best performers in the Dow, as investors rotated into traditional enterprise tech.
+
+### Piper Sandler — Synopsys (SNPS)
+- Upgraded Synopsys from Neutral → **Overweight**; price target raised to **$550** from $450 (~22% upside).
+- Electronic Design Automation (EDA) software seen as a more resilient AI pick insulated from hardware margin compression.
+
+### Wolfe Research — Target (TGT)
+- Raised Target from Peer Perform → **Outperform**; price target set at **$162**.
+- Defensive consumer staples/discretionary hybrid positioning seen as attractive given risk-off environment.
+
+### Citigroup — American Healthcare REIT (AHR)
+- Upgraded AHR from Neutral → **Buy**; price target set at **$55**.
+- Healthcare REITs outperformed the broader market on the flight to defensive yield.
+
+### Morgan Stanley — Qiagen (QGEN)
+- Raised from Equal Weight → **Overweight**; price target nudged to **$42** from $40.
 
 ### Bank of America — Micron Technology (MU)
 - Analyst **Vivek Arya** raised his 12-month price target on **Micron Technology** from **$950 → $1,500** (approximately 40% upside from current levels).
@@ -87,6 +113,15 @@ This note rattled rate-sensitive growth stocks and further pressured semiconduct
 
 ## 5. Key Macro & Economic Data
 
+### Earnings Reports — June 23, 2026 (select)
+| Company | Notes |
+|---|---|
+| Netflix (NFLX) | Reported; specific results not yet fully circulated at close |
+| SpaceX (Space Exploration Technologies) | Private company; reported to select investors |
+| American Airlines (AAL) | Reported; results not detailed in available sources |
+
+29 earnings reports were scheduled on the June 23 calendar per Yahoo Finance. Micron Technology (MU) was NOT reporting June 23 — its report is expected later this week, making its pre-earnings sell-off notable.
+
 ### What Released June 23
 - The economic calendar was relatively light on the day itself.
 - 4 economic events were scheduled per market calendars; specific details not fully disclosed in available sources.
@@ -99,33 +134,94 @@ This note rattled rate-sensitive growth stocks and further pressured semiconduct
 
 ---
 
-## 6. Cross-Asset Market Snapshot
+## 6. Rates Deep-Dive — Drivers & Context
 
-| Asset | Level / Reading | Notes |
+### US Treasury Yield Curve (June 23, 2026)
+
+| Maturity | Yield | Driver |
 |---|---|---|
-| VIX (Fear Gauge) | ~19.49 (as of Jun 24 open) | Elevated; spike from ~16.41 earlier in June |
-| 10-Year Treasury Yield | ~4.51% (as of Jun 22) | Pressure from BofA rate hike note |
-| WTI Crude Oil | ~$73.74/bbl | -0.2%; US-Iran talks progress |
-| Brent Crude | ~$77.70/bbl | -0.3% |
-| Gold Futures | ~$4,092/oz | Elevated amid macro uncertainty |
+| 2-Year | ~4.24% | Pricing in near-term Fed hikes; BofA Sep, Oct, Dec call front-loads expectations |
+| 10-Year | ~4.51% | Hovering post-climb; investors cautious ahead of PCE; US-Iran easing provides slight relief |
+| 30-Year | ~4.95% | Long-end under pressure as term premium rebuilds; fiscal deficit concerns remain a structural headwind |
+
+### What Drove Rate Moves June 23
+
+1. **BofA Research Note (Primary Catalyst):** BofA's intraday publication of a 3-hike forecast for 2026 immediately pushed short-dated yields higher. The 2s10s spread steepened slightly as markets priced more near-term tightening.
+2. **Deutsche Bank Confirmation:** Deutsche Bank's aligned (if slightly less aggressive) 2-hike forecast added corroborating weight to the repricing.
+3. **Fed Chair Warsh Tone:** The Federal Reserve left rates unchanged at its June 17 meeting, but Chair Warsh's commentary struck a notably hawkish tone, citing inflation persistence and a resilient labor market. Both banks' notes explicitly referenced Warsh's posture.
+4. **US-Iran Peace Talks (Partial Offset):** Progress on an Iran nuclear deal/oil release agreement eased energy-driven inflation fears modestly, providing a partial counterweight to rate pressure at the long end.
+5. **Markets' Implied Pricing:** Per LSEG data, futures markets are pricing ~41bps of hikes through year-end — roughly between Deutsche Bank (50bps) and BofA's (75bps) forecasts, implying the market is not yet fully pricing BofA's most hawkish call.
+
+## 6a. Cross-Asset Market Snapshot
+
+| Asset | Level / Reading | Change | Notes |
+|---|---|---|---|
+| VIX (Fear Gauge) | ~19.49 (as of Jun 24 open) | Spike from ~16.41 | Elevated fear; spike driven by chip sector rout |
+| 2-Year Treasury Yield | ~4.24% | Rising | Front-end pricing in near-term Fed hikes |
+| 10-Year Treasury Yield | ~4.51% | Rising | Pressure from BofA/Deutsche Bank rate hike notes |
+| 30-Year Treasury Yield | ~4.95% | Rising | Long-end selling as term premium rises |
+| Yield Curve (2s10s) | +27bps | Steepening | Curve steepening as hike expectations compress front-end less than long-end |
+| Fed Funds Rate (current) | 3.50–3.75% | Unchanged | Left unchanged at June 17 meeting |
+| WTI Crude Oil | ~$73.10–73.74/bbl | -0.2% to -0.3% | US-Iran talks progress; USD headwind |
+| Brent Crude | ~$77.70/bbl | -0.3% | OPEC+ supply easing expectations |
+| Gold Futures | ~$4,092–4,120/oz | Slightly lower | Rate hike expectations weigh; safe-haven demand partially offsetting |
+| US Dollar Index (DXY) | Near 13-month high | Firm | Hawkish Fed repricing driving dollar strength |
 
 ---
 
-## 7. Notable Stock Movers
+## 7. Additional Analyst Research Calls — June 23, 2026 (247 Wall St. Summary)
+
+Full list of notable calls from Tuesday's research round:
+
+| Stock | Action | Firm | New Target |
+|---|---|---|---|
+| IBM | Upgraded Neutral → Overweight | JPMorgan | $291 (from $270) |
+| Synopsys (SNPS) | Upgraded Neutral → Overweight | Piper Sandler | $550 (from $450) |
+| Target (TGT) | Upgraded Peer Perform → Outperform | Wolfe Research | $162 |
+| American Healthcare REIT (AHR) | Upgraded Neutral → Buy | Citigroup | $55 |
+| Qiagen (QGEN) | Upgraded Equal Weight → Overweight | Morgan Stanley | $42 (from $40) |
+| Micron (MU) | PT Raised | Bank of America (Vivek Arya) | $1,500 (from $950) |
+| Centene | Noted action | Various | — |
+| Darden Restaurants | Noted action | Various | — |
+| Flutter Entertainment | Noted action | Various | — |
+| GE Healthcare | Noted action | Various | — |
+| Nike | Noted action | Various | — |
+| SpaceX | Noted action | Various | — |
+
+## 8. Notable Stock Movers
+
+**Decliners:**
 
 | Ticker | Company | Move | Driver |
 |---|---|---|---|
 | GOOGL | Alphabet | -5% | DeepMind scientist departure to Anthropic |
-| MU | Micron Technology | Volatile (sector rout) | BofA PT raised to $1,500 but sector sold off |
-| ARM | ARM Holdings | Declined (no exact % confirmed) | Led semiconductor sector lower; "chip-equipment stocks lead global rout" |
-| SK Hynix (Korean) | SK Hynix | -12% | KOSPI crash, HBM4 expansion scale-back reports |
-| Samsung Electronics | Samsung | -12% | KOSPI crash, broader tech selloff |
-| Kioxia (Japan) | Kioxia | -15%+ | Regional tech rout |
-| SoftBank (Japan) | SoftBank | -15% | Nikkei selloff, AI exposure |
+| MU | Micron Technology | -9.1% to -13.2% | Sector rout; pre-earnings profit-taking despite BofA PT raise to $1,500 |
+| NVDA | Nvidia | -3.99% to -4.2% | AI spending credibility concerns; sector de-risking |
+| AMD | AMD | -5.8% | Semiconductor broad selloff |
+| QCOM | Qualcomm | -8% | Chip sector rout |
+| AVGO | Broadcom | -3.1% | Semiconductor weakness |
+| SNDK | Sandisk | -11.2% | Memory chip names hit hardest |
+| CAT | Caterpillar | -3.55% | Industrial cyclical weakness |
+| HON | Honeywell | -2.37% | Industrial conglomerate selling |
+| ARM | ARM Holdings | Declined (est.) | Led semiconductor sector lower; "chip-equipment stocks lead global rout" |
+| SK Hynix (KR) | SK Hynix | -12% | KOSPI crash, HBM4 expansion scale-back |
+| Samsung (KR) | Samsung Electronics | -12% | KOSPI crash, broader tech selloff |
+| Kioxia (JP) | Kioxia | -15%+ | Regional tech rout |
+| SoftBank (JP) | SoftBank | -15% | Nikkei selloff, AI exposure |
+
+**Outperformers (Defensive Rotation):**
+
+| Ticker | Company | Move | Driver |
+|---|---|---|---|
+| IBM | IBM | +4.2% to +4.9% | JPMorgan upgrade to Overweight, target $291; defensive enterprise tech rotation |
+| PSA | Public Storage | +4.4% | REIT safe-haven rotation; dividend appeal in risk-off |
+| ACN | Accenture | +3.3% | IT services seen as less exposed than hardware; defensive rotation |
+| MRK | Merck | +3.54% | Healthcare defensive bid |
+| JNJ | Johnson & Johnson | +3.36% | Healthcare defensive bid |
 
 ---
 
-## 8. Market Context & Outlook
+## 9. Market Context & Outlook
 
 The June 23 session represents a meaningful stress test for the AI-driven bull market that has propelled semiconductors (~+90% SOXX YTD) and broad tech to historic levels in 2026. The convergence of:
 1. **Tighter Fed expectations** (BofA 3-hike forecast)
@@ -139,22 +235,44 @@ The **PCE data on Thursday** will be the next major pivot point. If core PCE com
 
 ---
 
-## Sources
+## 10. Sources
 
+**Equity / General Market**
 - [TheStreet — Stock Market Today June 23, 2026](https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-23-2026)
 - [CNBC — Stock Market Today Live Updates](https://www.cnbc.com/2026/06/22/stock-market-today-live-updates.html)
 - [247 Wall St. — S&P 500 Futures Under Pressure](https://247wallst.com/investing/2026/06/23/stock-market-live-june-23-2026-sp-500-spy-futures-under-significant-pressure/)
+- [247 Wall St. — Best Analyst Research Calls June 23](https://247wallst.com/investing/2026/06/23/here-are-tuesdays-best-wall-street-analyst-research-calls-centene-darden-restaurants-flutter-entertainment-ge-healthcare-ibm-nike-spacex-synopsys-target-and-more/)
 - [Yahoo Finance — Stock Market News Jun 23, 2026](https://finance.yahoo.com/markets/stocks/articles/stock-market-news-jun-23-132400480.html)
+- [MarketScreener — S&P, Nasdaq end lower on semiconductor selloff](https://www.marketscreener.com/news/s-p-nasdaq-end-lower-on-semiconductor-selloff-as-ai-spending-concerns-mount-ce7f5fdbd98df521)
+
+**Rates & Fed**
 - [TheStreet — BofA Revamps Interest Rate Forecast](https://www.thestreet.com/fed/bank-of-america-revamps-interest-rate-forecast-for-rest-of-2026)
 - [Yahoo Finance — BofA Interest Rate Forecast](https://finance.yahoo.com/economy/policy/articles/bank-america-revamps-interest-rate-194347421.html)
+- [Fortune — Fed rate hike outlook / Kevin Warsh](https://fortune.com/2026/06/22/fed-rate-hikes-outlook-sticky-inflation-kevin-warsh-job-growth-oil-prices/)
+- [Investing.com — BofA 75bps rate hike forecast via Reuters](https://www.investing.com/news/economy-news/bofa-forecasts-75-bps-of-rate-hikes-in-2026-on-labour-market-resilience-new-fed-chair-4752311)
+- [Benzinga — BofA Hawkish Fed Call](https://www.benzinga.com/markets/economic-data/26/06/60016912/bank-of-america-fed-75bp-rate-hikes-2026-hawkish-call)
+- [CUToday — BofA, Deutsche Bank Expect Fed Rate Hikes](https://www.cutoday.info/Fresh-Today/BofA-Deutsche-Bank-Now-Expect-Fed-Rate-Hikes-In-2026)
+- [Fox Business — Federal Reserve leaves rates unchanged June 17](https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-june-17-2026)
+- [Federal Reserve Board — H.15 Interest Rates Daily](https://www.federalreserve.gov/releases/h15/)
+- [US Treasury — Daily Treasury Rates](https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_bill_rates&field_tdr_date_value=2026)
+
+**Semiconductors / AI**
 - [TheStreet — BofA Raises Micron Price Target](https://www.thestreet.com/investing/stocks/mu-micron-stock-price-target-bank-of-america-raises-june-2026)
 - [Benzinga — Micron BofA $1,500 Price Target](https://www.benzinga.com/analyst-stock-ratings/price-target/26/06/60059003/micron-technology-stock-bank-of-america-1500-price-target-rally-earnings-semiconductor-memory)
 - [StartupHub.ai — ARM Holdings & Semiconductor Rout](https://www.startuphub.ai/ai-news/ai-stocks-daily/2026/ai-stocks-2026-06-23)
+- [Intellectia.ai — Semiconductor Selloff $1.3T Wiped Out](https://intellectia.ai/blog/semiconductor-stocks-selloff-june-2026)
+- [Blockonomi — Why Semiconductor Shares Plunged](https://blockonomi.com/tech-stock-meltdown-why-semiconductor-shares-plunged-on-tuesday-june-23)
+- [Schwab — Tech Stress Test: Chips Slammed](https://www.schwab.com/learn/story/stock-market-update-open)
+
+**Asia / Global**
 - [Yahoo Finance — KOSPI Falls 8%, Circuit Breakers Triggered](https://finance.yahoo.com/markets/world-indices/articles/kospi-falls-8-triggers-circuit-061212686.html)
 - [IndexBox — Asian Market Crash June 23, 2026](https://www.indexbox.io/blog/asian-markets-plunge-kospi-down-10-circuit-breaker-triggered/)
 - [Univest — South Korea KOSPI Crash June 23, 2026](https://univest.in/blogs/south-korea-kospi-crash-june-23-2026)
 - [CNN Business — Wall Street AI Selloff / KOSPI Plunge](https://www.cnn.com/2026/06/23/business/stock-market-kospi-dow-nasdaq-ai)
 - [IndMoney — Why Tech Stocks Are Falling](https://www.indmoney.com/blog/us-stocks/why-tech-stocks-are-falling-kospi-crash-nasdaq-fall-ai-reset)
+
+**Commodities & Calendar**
+- [Fortune — Oil Price June 22, 2026](https://fortune.com/article/price-of-oil-06-22-2026/)
 - [Kiplinger — Economic Calendar Week of June 22–26](https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar)
 
 ---
