@@ -8,13 +8,28 @@ having to open Claude or GitHub.
 - Lead with one sentence giving the market's overall direction/close (this
   becomes the phone banner).
 - After that, include a full comprehensive summary in the `<routine_summary>`
-  body — not just a one-liner. Cover, in compact prose:
+  body — not just a one-liner.
+
+  **For US reports (`market-report-*.md`)**, cover in compact prose:
   - Section 1 one-paragraph summary (verbatim or near-verbatim)
   - Section 3 index levels: close, change (pts/%) for S&P 500, Nasdaq, Dow,
     Russell 2000, VIX
   - Key drivers/news from Section 2 (top 2-3 items)
   - Section 4/5 headline numbers (10yr yield, DXY) if notably moved
   - Section 6 tomorrow's key catalysts
+
+  **For KR reports (`kr-market-report-*.md`)**, cover in compact prose:
+  - The "종합 요약 (Executive Summary)" section (verbatim or near-verbatim)
+  - Section 2 index levels: KOSPI and KOSDAQ close + change (pts/%), and
+    whether any circuit breaker/sidecar was triggered
+  - Section 3 foreign/institutional/retail net buy-sell flows (headline
+    numbers only)
+  - Top 2-3 items from Section 1 (major news) and Section 4 (sector/theme
+    moves)
+  - Section 5 KRW/USD level and change if notably moved
+  - Section 7/8 notable earnings or analyst calls if market-moving
+
+  **For both**, always end with:
   - The branch name / file name where the full report was committed, so the
     user can find it on GitHub.
 - Do not skip the notification just because the report is "routine" — the
